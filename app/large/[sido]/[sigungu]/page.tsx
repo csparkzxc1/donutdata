@@ -7,7 +7,7 @@ import StepGrid from '@/components/StepGrid';
 import FeatureSection from '@/components/FeatureSection';
 import ChannelCompareList from '@/components/ChannelCompareList';
 import CatalogList from '@/components/CatalogList';
-import { getCityData } from '@/lib/data';
+import { getCityData, getAllCityDataFiles } from '@/lib/data';
 import { findRegion, getSidoName } from '@/data/regions';
 import { getAppsForCity } from '@/data/apps';
 import { generateMeta, generateBreadcrumbJsonLd, generateHowToJsonLd } from '@/lib/seo';
@@ -28,7 +28,11 @@ export async function generateMetadata({ params }: PageProps) {
 }
 
 export function generateStaticParams() {
-  return [{ sido: 'gyeonggi', sigungu: 'hwaseong' }];
+  const files = getAllCityDataFiles();
+  return files.map(file => {
+    const [sido, ...rest] = file.replace('.json', '').split('-');
+    return { sido, sigungu: rest.join('-') };
+  });
 }
 
 export default async function SigunguPage({ params }: PageProps) {

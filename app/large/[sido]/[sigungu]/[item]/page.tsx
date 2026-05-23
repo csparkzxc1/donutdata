@@ -7,7 +7,7 @@ import PriceDisplay from '@/components/PriceDisplay';
 import FAQSection from '@/components/FAQSection';
 import ReasonCard from '@/components/ui/ReasonCard';
 import AppleLink from '@/components/AppleLink';
-import { getItemData, formatPrice, getSimilarItems } from '@/lib/data';
+import { getItemData, formatPrice, getSimilarItems, getAllCityDataFiles, getCityData } from '@/lib/data';
 import { getSidoName } from '@/data/regions';
 import { getAppsForCity } from '@/data/apps';
 import { generateMeta, generateBreadcrumbJsonLd, generateFaqJsonLd } from '@/lib/seo';
@@ -29,17 +29,18 @@ export async function generateMetadata({ params }: PageProps) {
 }
 
 export function generateStaticParams() {
-  const items = [
-    'sofa-3p', 'sofa-2p', 'sofa-1p', 'sofa-module',
-    'refrigerator-double', 'refrigerator-single',
-    'mattress-queen', 'mattress-single',
-    'washing-machine-drum', 'washing-machine-top',
-    'desk', 'desk-l', 'wardrobe', 'wardrobe-small',
-    'bed-frame-double', 'bed-frame-single',
-    'dining-table-6', 'dining-table-4',
-    'armchair', 'bookshelf',
-  ];
-  return items.map(item => ({ sido: 'gyeonggi', sigungu: 'hwaseong', item }));
+  const files = getAllCityDataFiles();
+  const params: { sido: string; sigungu: string; item: string }[] = [];
+  for (const file of files) {
+    const [sido, ...rest] = file.replace('.json', '').split('-');
+    const sigungu = rest.join('-');
+    const city = getCityData(sido, sigungu);
+    if (!city) continue;
+    for (const item of city.items) {
+      params.push({ sido, sigungu, item: item.nameSlug });
+    }
+  }
+  return params;
 }
 
 const faqs = [
