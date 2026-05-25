@@ -17,7 +17,7 @@ export default function HomePage() {
         titleLight="미리 확인."
         subtitle="전국 226개 시·군·구의 폐기물 데이터를 한 곳에서."
         links={[
-          { label: '시작하기', href: '/large/gyeonggi/hwaseong' },
+          { label: '시작하기', href: '/large' },
           { label: '데이터 출처', href: '/' },
         ]}
       />
@@ -43,7 +43,7 @@ export default function HomePage() {
           compact
           title="대형폐기물"
           subtitle="시·군·구별 수수료."
-          links={[{ label: '보기', href: '/large/gyeonggi/hwaseong' }]}
+          links={[{ label: '보기', href: '/large' }]}
           statNumber="226"
         />
         <Tile
