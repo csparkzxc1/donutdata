@@ -7,183 +7,159 @@
     "name": "환경과",
     "phone": "061-320-3571"
   },
-  "updatedAt": "2026-05-01",
+  "updatedAt": "2025-05-01",
   "items": [
+    {
+      "id": "sofa-4up",
+      "name": "소파 (4인용 이상)",
+      "nameSlug": "sofa-4up",
+      "category": "가구류",
+      "spec": "4인용 이상",
+      "fee": 7000
+    },
     {
       "id": "sofa-3p",
       "name": "소파 (3인용)",
       "nameSlug": "sofa-3p",
       "category": "가구류",
-      "spec": "길이 180cm 이상",
-      "fee": 10000
+      "spec": "3인용",
+      "fee": 5000
     },
     {
       "id": "sofa-2p",
       "name": "소파 (2인용)",
       "nameSlug": "sofa-2p",
       "category": "가구류",
-      "spec": "길이 120~180cm",
-      "fee": 9000
+      "spec": "2인용",
+      "fee": 3000
     },
     {
       "id": "sofa-1p",
       "name": "소파 (1인용)",
       "nameSlug": "sofa-1p",
       "category": "가구류",
-      "spec": "길이 120cm 미만",
+      "spec": "1인용",
       "fee": 2000
     },
     {
-      "id": "sofa-module",
-      "name": "모듈형 소파",
-      "nameSlug": "sofa-module",
+      "id": "bed-double-set",
+      "name": "침대 (2인용 세트)",
+      "nameSlug": "bed-double-set",
       "category": "가구류",
-      "spec": "모듈 3개 이상",
-      "fee": 11000
+      "spec": "2인용 프레임+매트리스",
+      "fee": 13000
     },
     {
-      "id": "refrigerator-double",
-      "name": "냉장고 (양문형)",
-      "nameSlug": "refrigerator-double",
-      "category": "가전류",
-      "spec": "700L 이상",
-      "fee": 7000
-    },
-    {
-      "id": "refrigerator-single",
-      "name": "냉장고 (일반)",
-      "nameSlug": "refrigerator-single",
-      "category": "가전류",
-      "spec": "700L 미만",
-      "fee": 7000
-    },
-    {
-      "id": "mattress-queen",
-      "name": "매트리스 (퀸)",
-      "nameSlug": "mattress-queen",
+      "id": "bed-single-set",
+      "name": "침대 (1인용 세트)",
+      "nameSlug": "bed-single-set",
       "category": "가구류",
-      "spec": "퀸 사이즈",
+      "spec": "1인용 프레임+매트리스",
+      "fee": 9000
+    },
+    {
+      "id": "mattress-double",
+      "name": "매트리스 (2인용)",
+      "nameSlug": "mattress-double",
+      "category": "가구류",
+      "spec": "더블/퀸/킹",
       "fee": 7000
     },
     {
       "id": "mattress-single",
-      "name": "매트리스 (싱글)",
+      "name": "매트리스 (1인용)",
       "nameSlug": "mattress-single",
       "category": "가구류",
-      "spec": "싱글 사이즈",
-      "fee": 6000
-    },
-    {
-      "id": "washing-machine-drum",
-      "name": "세탁기 (드럼)",
-      "nameSlug": "washing-machine-drum",
-      "category": "가전류",
-      "spec": "일반 가정용",
-      "fee": 6000
-    },
-    {
-      "id": "washing-machine-top",
-      "name": "세탁기 (통돌이)",
-      "nameSlug": "washing-machine-top",
-      "category": "가전류",
-      "spec": "일반 가정용",
-      "fee": 6000
-    },
-    {
-      "id": "desk",
-      "name": "책상",
-      "nameSlug": "desk",
-      "category": "가구류",
-      "spec": "일반 사무용",
-      "fee": 5000
-    },
-    {
-      "id": "desk-l",
-      "name": "책상 (L자형)",
-      "nameSlug": "desk-l",
-      "category": "가구류",
-      "spec": "L자형 대형",
-      "fee": 9000
-    },
-    {
-      "id": "wardrobe",
-      "name": "장롱",
-      "nameSlug": "wardrobe",
-      "category": "가구류",
-      "spec": "3칸 이상",
-      "fee": 11000
-    },
-    {
-      "id": "wardrobe-small",
-      "name": "옷장 (소형)",
-      "nameSlug": "wardrobe-small",
-      "category": "가구류",
-      "spec": "2칸 이하",
-      "fee": 3000
-    },
-    {
-      "id": "bed-frame-double",
-      "name": "침대 프레임 (더블)",
-      "nameSlug": "bed-frame-double",
-      "category": "가구류",
-      "spec": "더블 사이즈",
-      "fee": 6000
-    },
-    {
-      "id": "bed-frame-single",
-      "name": "침대 프레임 (싱글)",
-      "nameSlug": "bed-frame-single",
-      "category": "가구류",
-      "spec": "싱글 사이즈",
-      "fee": 6000
-    },
-    {
-      "id": "dining-table-6",
-      "name": "식탁 (6인용)",
-      "nameSlug": "dining-table-6",
-      "category": "가구류",
-      "spec": "6인용 이상",
-      "fee": 10000
-    },
-    {
-      "id": "dining-table-4",
-      "name": "식탁 (4인용)",
-      "nameSlug": "dining-table-4",
-      "category": "가구류",
-      "spec": "4인용",
-      "fee": 3000
-    },
-    {
-      "id": "armchair",
-      "name": "안락의자",
-      "nameSlug": "armchair",
-      "category": "가구류",
-      "spec": "1인용",
+      "spec": "싱글",
       "fee": 4000
     },
     {
-      "id": "bookshelf",
-      "name": "책장",
-      "nameSlug": "bookshelf",
+      "id": "bed-frame-double",
+      "name": "침대 프레임 (2인용)",
+      "nameSlug": "bed-frame-double",
       "category": "가구류",
-      "spec": "5단 이상",
+      "spec": "2인용 프레임만",
+      "fee": 7000
+    },
+    {
+      "id": "bed-frame-single",
+      "name": "침대 프레임 (1인용)",
+      "nameSlug": "bed-frame-single",
+      "category": "가구류",
+      "spec": "1인용 프레임만",
+      "fee": 4000
+    },
+    {
+      "id": "refrigerator-large",
+      "name": "냉장고 (대형)",
+      "nameSlug": "refrigerator-large",
+      "category": "가전류",
+      "spec": "500L 이상",
+      "fee": 9000
+    },
+    {
+      "id": "refrigerator-medium",
+      "name": "냉장고 (중형)",
+      "nameSlug": "refrigerator-medium",
+      "category": "가전류",
+      "spec": "300~500L",
+      "fee": 6000
+    },
+    {
+      "id": "refrigerator-small",
+      "name": "냉장고 (소형)",
+      "nameSlug": "refrigerator-small",
+      "category": "가전류",
+      "spec": "300L 미만",
       "fee": 3000
     },
     {
-      "id": "tv-stand",
-      "name": "TV 거치대",
-      "nameSlug": "tv-stand",
-      "category": "가구류",
-      "spec": "일반형",
+      "id": "washing-machine-large",
+      "name": "세탁기 (대형)",
+      "nameSlug": "washing-machine-large",
+      "category": "가전류",
+      "spec": "10kg 이상",
+      "fee": 7000
+    },
+    {
+      "id": "washing-machine-small",
+      "name": "세탁기 (소형)",
+      "nameSlug": "washing-machine-small",
+      "category": "가전류",
+      "spec": "10kg 미만",
+      "fee": 4000
+    },
+    {
+      "id": "tv-large",
+      "name": "TV (42인치 이상)",
+      "nameSlug": "tv-large",
+      "category": "가전류",
+      "spec": "42인치 이상",
+      "fee": 6000
+    },
+    {
+      "id": "tv-medium",
+      "name": "TV (25~42인치)",
+      "nameSlug": "tv-medium",
+      "category": "가전류",
+      "spec": "25~42인치",
+      "fee": 4000
+    },
+    {
+      "id": "tv-small",
+      "name": "TV (25인치 미만)",
+      "nameSlug": "tv-small",
+      "category": "가전류",
+      "spec": "25인치 미만",
       "fee": 3000
     },
     {
-      "id": "air-conditioner",
+      "id": "air-conditioner-stand",
       "name": "에어컨 (스탠드)",
-      "nameSlug": "air-conditioner",
+      "nameSlug": "air-conditioner-stand",
       "category": "가전류",
       "spec": "스탠드형",
-      "fee": 15000
+      "fee": 7000
     },
     {
       "id": "air-conditioner-wall",
@@ -191,7 +167,135 @@
       "nameSlug": "air-conditioner-wall",
       "category": "가전류",
       "spec": "벽걸이형",
+      "fee": 4000
+    },
+    {
+      "id": "wardrobe-large",
+      "name": "장롱 (대형)",
+      "nameSlug": "wardrobe-large",
+      "category": "가구류",
+      "spec": "4칸 이상",
       "fee": 6000
+    },
+    {
+      "id": "wardrobe-small",
+      "name": "장롱 (소형)",
+      "nameSlug": "wardrobe-small",
+      "category": "가구류",
+      "spec": "4칸 미만",
+      "fee": 3000
+    },
+    {
+      "id": "closet-large",
+      "name": "옷장 (대형)",
+      "nameSlug": "closet-large",
+      "category": "가구류",
+      "spec": "높이 150cm 이상",
+      "fee": 5000
+    },
+    {
+      "id": "closet-small",
+      "name": "옷장 (소형)",
+      "nameSlug": "closet-small",
+      "category": "가구류",
+      "spec": "높이 150cm 미만",
+      "fee": 3000
+    },
+    {
+      "id": "desk-large",
+      "name": "책상 (대형)",
+      "nameSlug": "desk-large",
+      "category": "가구류",
+      "spec": "폭 120cm 이상",
+      "fee": 4000
+    },
+    {
+      "id": "desk-small",
+      "name": "책상 (소형)",
+      "nameSlug": "desk-small",
+      "category": "가구류",
+      "spec": "폭 120cm 미만",
+      "fee": 3000
+    },
+    {
+      "id": "dining-table-6",
+      "name": "식탁 (6인용 이상)",
+      "nameSlug": "dining-table-6",
+      "category": "가구류",
+      "spec": "6인용 이상",
+      "fee": 6000
+    },
+    {
+      "id": "dining-table-4",
+      "name": "식탁 (4인용)",
+      "nameSlug": "dining-table-4",
+      "category": "가구류",
+      "spec": "4인용",
+      "fee": 4000
+    },
+    {
+      "id": "dining-table-2",
+      "name": "식탁 (2인용)",
+      "nameSlug": "dining-table-2",
+      "category": "가구류",
+      "spec": "2인용",
+      "fee": 3000
+    },
+    {
+      "id": "bookshelf-large",
+      "name": "책장 (5단 이상)",
+      "nameSlug": "bookshelf-large",
+      "category": "가구류",
+      "spec": "5단 이상",
+      "fee": 4000
+    },
+    {
+      "id": "bookshelf-small",
+      "name": "책장 (5단 미만)",
+      "nameSlug": "bookshelf-small",
+      "category": "가구류",
+      "spec": "5단 미만",
+      "fee": 3000
+    },
+    {
+      "id": "shoe-rack",
+      "name": "신발장",
+      "nameSlug": "shoe-rack",
+      "category": "가구류",
+      "spec": "일반형",
+      "fee": 3000
+    },
+    {
+      "id": "drawer-large",
+      "name": "서랍장 (대형)",
+      "nameSlug": "drawer-large",
+      "category": "가구류",
+      "spec": "5단 이상",
+      "fee": 4000
+    },
+    {
+      "id": "drawer-small",
+      "name": "서랍장 (소형)",
+      "nameSlug": "drawer-small",
+      "category": "가구류",
+      "spec": "5단 미만",
+      "fee": 3000
+    },
+    {
+      "id": "piano-upright",
+      "name": "피아노 (업라이트)",
+      "nameSlug": "piano-upright",
+      "category": "기타",
+      "spec": "업라이트형",
+      "fee": 10000
+    },
+    {
+      "id": "piano-grand",
+      "name": "피아노 (그랜드)",
+      "nameSlug": "piano-grand",
+      "category": "기타",
+      "spec": "그랜드형",
+      "fee": 16000
     },
     {
       "id": "bicycle",
@@ -199,7 +303,7 @@
       "nameSlug": "bicycle",
       "category": "생활용품",
       "spec": "성인용",
-      "fee": 2000
+      "fee": 3000
     },
     {
       "id": "stroller",
@@ -215,15 +319,39 @@
       "nameSlug": "exercise-bike",
       "category": "생활용품",
       "spec": "일반형",
+      "fee": 4000
+    },
+    {
+      "id": "treadmill",
+      "name": "런닝머신",
+      "nameSlug": "treadmill",
+      "category": "생활용품",
+      "spec": "일반형",
+      "fee": 7000
+    },
+    {
+      "id": "gas-range",
+      "name": "가스레인지",
+      "nameSlug": "gas-range",
+      "category": "가전류",
+      "spec": "일반형",
       "fee": 3000
     },
     {
-      "id": "golf-bag",
-      "name": "골프백",
-      "nameSlug": "golf-bag",
-      "category": "생활용품",
+      "id": "microwave",
+      "name": "전자레인지",
+      "nameSlug": "microwave",
+      "category": "가전류",
       "spec": "일반형",
-      "fee": 1000
+      "fee": 2000
+    },
+    {
+      "id": "water-purifier",
+      "name": "정수기",
+      "nameSlug": "water-purifier",
+      "category": "가전류",
+      "spec": "일반형",
+      "fee": 3000
     },
     {
       "id": "carpet-large",
@@ -234,20 +362,52 @@
       "fee": 3000
     },
     {
-      "id": "shoe-rack",
-      "name": "신발장",
-      "nameSlug": "shoe-rack",
-      "category": "가구류",
-      "spec": "일반형",
-      "fee": 5000
+      "id": "mirror-large",
+      "name": "거울 (대형)",
+      "nameSlug": "mirror-large",
+      "category": "생활용품",
+      "spec": "높이 100cm 이상",
+      "fee": 3000
     },
     {
-      "id": "piano-upright",
-      "name": "피아노 (업라이트)",
-      "nameSlug": "piano-upright",
-      "category": "기타",
-      "spec": "업라이트형",
-      "fee": 30000
+      "id": "massage-chair",
+      "name": "안마의자",
+      "nameSlug": "massage-chair",
+      "category": "가구류",
+      "spec": "전동형",
+      "fee": 9000
+    },
+    {
+      "id": "chair",
+      "name": "의자",
+      "nameSlug": "chair",
+      "category": "가구류",
+      "spec": "일반형",
+      "fee": 1000
+    },
+    {
+      "id": "office-chair",
+      "name": "사무용 의자",
+      "nameSlug": "office-chair",
+      "category": "가구류",
+      "spec": "바퀴형",
+      "fee": 2000
+    },
+    {
+      "id": "golf-bag",
+      "name": "골프백",
+      "nameSlug": "golf-bag",
+      "category": "생활용품",
+      "spec": "일반형",
+      "fee": 2000
+    },
+    {
+      "id": "fan-heater",
+      "name": "선풍기/온풍기",
+      "nameSlug": "fan-heater",
+      "category": "가전류",
+      "spec": "일반형",
+      "fee": 1000
     }
   ]
 }
